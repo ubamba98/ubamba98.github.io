@@ -16,8 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Applied Scientist II at Amazon, where I work on multi-modal representation learning and large language models. Prior to Amazon, I was a Research Intern at Mila - Quebec AI Institute and earned my Integrated Master's degree from IIT(ISM) Dhanbad. My research interests lie at the intersection of <em>model compression, efficient training and inference, and multi-modal representation learning</em>.
+I am an Applied Scientist II at Amazon, where I work on data efficiency and multi-modal representation learning. Prior to Amazon, I worked as a Research Intern at Mila - Quebec AI Institute and earned my Integrated Master's degree from IIT(ISM) Dhanbad. My research interests lie at the intersection of <em>efficient deep learning and multi-modal representation learning</em>.
 
-Beyond academic research, I am an active competitor in machine learning competitions on Kaggle, where I hold rank of Competitions Master with five gold and eight silver medals. When I'm not brainstorming ideas or coding, I enjoy gaming, watching movies, and engaging in detailed discussions about them.
+Beyond academic research, I am an active competitor on Kaggle, where I hold Competitions Master title with five gold and eight silver medals. Apart from work, I enjoy gaming, bing watching shows, and playing badminton.
 
 For updated details, please see my [Google Scholar](https://scholar.google.com/citations?user=PgnnH78AAAAJ) / [LinkedIn](https://www.linkedin.com/in/ubamba98/) pages.
