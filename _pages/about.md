@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Amazon Lab126, India</a>
+subtitle: Applied Scientist II, <a href='https://www.amazon.jobs/en/teams/lab126'>Amazon Lab126</a> · Bangalore, India
 
 profile:
   align: right
@@ -11,13 +11,13 @@ profile:
   more_info: >
     <center>ubamba98@gmail.com</center>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Applied Scientist II at Amazon, where I work at the intersection of large language models and low-latency on-device inference. Beyond my industry role, I actively mentor students and collaborate with researchers. Prior to Amazon, I focused on resource-efficient machine learning as an intern at Mila - Quebec AI Institute and co-founded Transmute AI Labs to mentor students at IIT Dhanbad. 
+I am an Applied Scientist II at Amazon Lab126, where I work at the intersection of large language models and low-latency on-device inference. My current work scales model compression to enable on-device and cloud-based GenAI deployment for Alexa+ — spanning dense-to-MoE conversion, quantization-friendly training, and compressing 200B+ parameter mixture-of-experts models. Previously at Amazon Ads, I built and productionized vision-language models for content understanding and moderation. Before Amazon, I focused on resource-efficient machine learning as a research intern at Mila – Quebec AI Institute (with David Rolnick and Gintare Karolina Dziugaite) and co-founded Transmute AI Research to foster a research culture among students at IIT (ISM) Dhanbad.
 
-These days I am working on building better mixture-of-experts systems and helping LLMs reason efficiently under strict compute budgets. Beyond academic research, I am an active competitor on Kaggle, where I hold the Competitions Master title with five gold and eight silver medals. Apart from work, I enjoy gaming, binge-watching shows, and playing badminton.
+These days I am working on building better mixture-of-experts systems and helping LLMs reason efficiently under strict compute budgets. Beyond my research, I am an active competitor on Kaggle, where I hold the Competitions Master title (top 0.02%, peak rank 45th worldwide). Apart from work, I enjoy gaming, binge-watching shows, and playing badminton.
 
 For updated details, please see my [Google Scholar](https://scholar.google.com/citations?user=PgnnH78AAAAJ) / [LinkedIn](https://www.linkedin.com/in/ubamba98/) pages.

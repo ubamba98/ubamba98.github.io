@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ubamba98
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ubamba98/feedback-prize
+  - ubamba98/Brain-Segmentation
+  - ubamba98/CS231n-2019
+  - ubamba98/EAD2020
+  - ubamba98/EfficientNet-PyTorch_3DConv
+  - ubamba98/SRFlow-pytorch
