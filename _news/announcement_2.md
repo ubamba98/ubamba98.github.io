@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**CRoPS**, a training-free hallucination mitigation framework for vision-language models, accepted at **TMLR**.
+**CRoPS** accepted at **TMLR**.

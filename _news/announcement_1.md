@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined **Amazon Lab126** as an Applied Scientist II, working on model compression for on-device and cloud GenAI deployment for Alexa+.
+Joined **Amazon Lab126** as an Applied Scientist II, working on efficient GenAI for Alexa+.
