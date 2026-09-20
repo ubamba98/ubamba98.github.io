@@ -15,6 +15,8 @@ nav_order: 2
 
 <div class="publications">
 
+<p class="publication-author-legend"><sup>*</sup> Equal contribution</p>
+
 {% bibliography %}
 
 </div>

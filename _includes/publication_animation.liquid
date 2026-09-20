@@ -1,0 +1,223 @@
+{% assign publication_scene = 'generic' %}
+{% case entry.key %}
+  {% when 'bamba2025xrpo' %}
+    {% assign publication_scene = 'xrpo' %}
+  {% when 'bamba2026dotmoe' %}
+    {% assign publication_scene = 'dotmoe' %}
+  {% when 'chavan2025s2d' %}
+    {% assign publication_scene = 's2d' %}
+  {% when 'anand2025crops' %}
+    {% assign publication_scene = 'crops' %}
+  {% when 'bamba2026reward' %}
+    {% assign publication_scene = 'reward' %}
+  {% when 'bamba2025reward' %}
+    {% assign publication_scene = 'reward-sensitivity' %}
+  {% when 'bamba2022kernalpruning' %}
+    {% assign publication_scene = 'pruning' %}
+  {% when 'Bamba_2024_WACV' %}
+    {% assign publication_scene = 'binarization' %}
+  {% when 'tiwari2021chipnet' %}
+    {% assign publication_scene = 'chipnet' %}
+  {% when 'Gupta2024UltraMNIST' %}
+    {% assign publication_scene = 'ultramnist' %}
+  {% when 'Chavan2021RepeatNet' %}
+    {% assign publication_scene = 'repeatnet' %}
+  {% when 'Chavan2021MetaDock' %}
+    {% assign publication_scene = 'metadock' %}
+{% endcase %}
+
+<div class="publication-art publication-art--{{ publication_scene }}" aria-hidden="true">
+  <svg class="publication-animation" viewBox="0 0 112 78" focusable="false">
+    {% case publication_scene %}
+      {% when 'xrpo' %}
+        <circle class="publication-animation__shape" cx="14" cy="20" r="4"></circle>
+        <circle class="publication-animation__shape" cx="14" cy="39" r="4"></circle>
+        <circle class="publication-animation__shape" cx="14" cy="58" r="4"></circle>
+        <path class="publication-animation__faint" d="M18 20C29 20 31 12 44 12 M18 20H44 M18 20C29 20 31 28 44 28 M18 39H44 M18 58H44"></path>
+        <circle class="publication-animation__node publication-animation__blink-1" cx="47" cy="12" r="2.6"></circle>
+        <circle class="publication-animation__node publication-animation__blink-2" cx="47" cy="20" r="2.6"></circle>
+        <circle class="publication-animation__node publication-animation__blink-3" cx="47" cy="28" r="2.6"></circle>
+        <circle class="publication-animation__node--secondary" cx="47" cy="39" r="2.6"></circle>
+        <circle class="publication-animation__shape--secondary" cx="47" cy="58" r="3.2"></circle>
+        <rect class="publication-animation__shape publication-animation__seed" x="24" y="65" width="6" height="6" rx="1"></rect>
+        <path class="publication-animation__line publication-animation__flow" d="M51 12C66 12 72 24 89 24 M51 20C67 20 72 25 89 25 M51 28C66 28 72 26 89 26"></path>
+        <circle class="publication-animation__node--secondary publication-animation__pulse" cx="94" cy="25" r="5"></circle>
+        <path class="publication-animation__check" d="M91.5 25L93.3 26.8L97 22.8"></path>
+
+      {% when 'dotmoe' %}
+        <circle class="publication-animation__node" cx="13" cy="17" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="13" cy="29" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="13" cy="41" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="13" cy="53" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="13" cy="65" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="25" cy="23" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="25" cy="35" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="25" cy="47" r="2.5"></circle>
+        <circle class="publication-animation__node" cx="25" cy="59" r="2.5"></circle>
+        <path class="publication-animation__line publication-animation__flow" d="M17 17C47 17 51 18 76 18 M17 29C46 29 52 18 76 18 M17 41C46 41 52 39 76 39 M17 53C46 53 52 39 76 39 M17 65C46 65 52 60 76 60 M29 23C48 23 54 18 76 18 M29 35C49 35 55 39 76 39 M29 47C49 47 55 39 76 39 M29 59C49 59 55 60 76 60"></path>
+        <rect class="publication-animation__shape publication-animation__pulse" x="80" y="10" width="19" height="16" rx="3"></rect>
+        <rect class="publication-animation__shape--secondary publication-animation__pulse publication-animation__delay-1" x="80" y="31" width="19" height="16" rx="3"></rect>
+        <rect class="publication-animation__shape publication-animation__pulse publication-animation__delay-2" x="80" y="52" width="19" height="16" rx="3"></rect>
+
+      {% when 's2d' %}
+        <path class="publication-animation__faint" d="M15 61H98 M17 61V17"></path>
+        <rect class="publication-animation__bar" x="25" y="28" width="7" height="33" rx="2"></rect>
+        <rect class="publication-animation__bar--secondary publication-animation__decay publication-animation__delay-1" x="38" y="20" width="7" height="41" rx="2"></rect>
+        <rect class="publication-animation__bar publication-animation__decay publication-animation__delay-2" x="51" y="34" width="7" height="27" rx="2"></rect>
+        <rect class="publication-animation__bar--secondary publication-animation__decay publication-animation__delay-3" x="64" y="24" width="7" height="37" rx="2"></rect>
+        <rect class="publication-animation__bar publication-animation__decay publication-animation__delay-1" x="77" y="40" width="7" height="21" rx="2"></rect>
+        <rect class="publication-animation__bar--secondary" x="90" y="47" width="7" height="14" rx="2"></rect>
+
+      {% when 'crops' %}
+        <g class="publication-animation__image">
+          <rect x="8" y="12" width="24" height="21" rx="3"></rect>
+          <path d="M11 29L17 22L21 26L25 19L30 29"></path>
+        </g>
+        <g class="publication-animation__tokens">
+          <rect x="39" y="14" width="7" height="7" rx="1.5"></rect>
+          <rect class="publication-animation__prune-visual publication-animation__delay-1" x="49" y="14" width="7" height="7" rx="1.5"></rect>
+          <rect x="59" y="14" width="7" height="7" rx="1.5"></rect>
+          <rect class="publication-animation__prune-visual publication-animation__delay-2" x="69" y="14" width="7" height="7" rx="1.5"></rect>
+        </g>
+        <path class="publication-animation__text-lines" d="M9 49H30 M9 55H27 M9 61H31"></path>
+        <g class="publication-animation__tokens">
+          <rect x="39" y="51" width="7" height="7" rx="1.5"></rect>
+          <rect x="49" y="51" width="7" height="7" rx="1.5"></rect>
+          <rect class="publication-animation__prune-text publication-animation__delay-1" x="59" y="51" width="7" height="7" rx="1.5"></rect>
+          <rect class="publication-animation__prune-text publication-animation__delay-2" x="69" y="51" width="7" height="7" rx="1.5"></rect>
+        </g>
+        <path class="publication-animation__line publication-animation__flow" d="M79 18C87 20 88 28 91 34 M79 55C87 53 88 46 91 42"></path>
+        <circle class="publication-animation__node--secondary publication-animation__pulse" cx="96" cy="38" r="8"></circle>
+        <path class="publication-animation__check" d="M92 38L95 41L100.5 34.5"></path>
+
+      {% when 'reward' %}
+        <path class="publication-animation__faint" d="M14 64H100 M16 64V12"></path>
+        <path class="publication-animation__line publication-animation__draw" d="M17 59C30 55 37 49 49 42C62 34 72 22 97 14"></path>
+        <path class="publication-animation__line--secondary publication-animation__draw publication-animation__delay-2" d="M17 59C32 58 44 58 57 57C72 56 84 58 97 57"></path>
+        <circle class="publication-animation__node publication-animation__pulse" cx="97" cy="14" r="3.5"></circle>
+        <circle class="publication-animation__node--secondary publication-animation__jitter" cx="97" cy="57" r="3.5"></circle>
+        <path class="publication-animation__divergence" d="M103 18V53 M100 18H106 M100 53H106"></path>
+
+      {% when 'reward-sensitivity' %}
+        <path class="publication-animation__faint" d="M14 35H78"></path>
+        <circle class="publication-animation__shape" cx="17" cy="35" r="5"></circle>
+        <circle class="publication-animation__shape" cx="36" cy="35" r="5"></circle>
+        <circle class="publication-animation__shape--secondary publication-animation__attack" cx="55" cy="35" r="6"></circle>
+        <path class="publication-animation__cross" d="M52 32L58 38 M58 32L52 38"></path>
+        <circle class="publication-animation__shape" cx="74" cy="35" r="5"></circle>
+        <path class="publication-animation__line publication-animation__flow" d="M79 35H89"></path>
+        <path class="publication-animation__meter" d="M94 60V16 M90 60H99"></path>
+        <circle class="publication-animation__node--secondary publication-animation__reward-meter" cx="94" cy="24" r="4"></circle>
+
+      {% when 'pruning' %}
+        <g class="publication-animation__kernel-grid">
+          <rect x="13" y="13" width="15" height="15" rx="2"></rect>
+          <path d="M18 13V28 M23 13V28 M13 18H28 M13 23H28"></path>
+          <rect class="publication-animation__drop publication-animation__delay-1" x="33" y="13" width="15" height="15" rx="2"></rect>
+          <path class="publication-animation__drop publication-animation__delay-1" d="M38 13V28 M43 13V28 M33 18H48 M33 23H48"></path>
+          <rect x="53" y="13" width="15" height="15" rx="2"></rect>
+          <path d="M58 13V28 M63 13V28 M53 18H68 M53 23H68"></path>
+          <rect class="publication-animation__drop publication-animation__delay-2" x="73" y="13" width="15" height="15" rx="2"></rect>
+          <path class="publication-animation__drop publication-animation__delay-2" d="M78 13V28 M83 13V28 M73 18H88 M73 23H88"></path>
+        </g>
+        <path class="publication-animation__faint" d="M15 56H96"></path>
+        <circle class="publication-animation__node" cx="87" cy="56" r="3.5"></circle>
+        <path class="publication-animation__line--secondary publication-animation__rewind" d="M87 48C77 34 42 35 31 49"></path>
+        <path class="publication-animation__arrow" d="M31 49L31 41L38 46"></path>
+        <circle class="publication-animation__node--secondary publication-animation__pulse" cx="31" cy="56" r="3.5"></circle>
+
+      {% when 'binarization' %}
+        <path class="publication-animation__faint" d="M10 39H102"></path>
+        <rect class="publication-animation__precision-layer" x="12" y="22" width="11" height="34" rx="3"></rect>
+        <rect class="publication-animation__binary-layer publication-animation__blink-1" x="28" y="27" width="11" height="24" rx="3"></rect>
+        <rect class="publication-animation__precision-layer" x="44" y="18" width="11" height="42" rx="3"></rect>
+        <rect class="publication-animation__binary-layer publication-animation__blink-2" x="60" y="25" width="11" height="28" rx="3"></rect>
+        <rect class="publication-animation__binary-layer publication-animation__blink-3" x="76" y="29" width="11" height="20" rx="3"></rect>
+        <rect class="publication-animation__precision-layer" x="92" y="22" width="11" height="34" rx="3"></rect>
+        <path class="publication-animation__budget-bracket" d="M28 66H87 M28 62V69 M87 62V69"></path>
+
+      {% when 'chipnet' %}
+        <path class="publication-animation__faint" d="M9 60H54 M11 60V14"></path>
+        <path class="publication-animation__line publication-animation__draw" d="M12 57C19 57 21 55 25 50C31 43 32 31 38 24C42 19 46 17 52 17"></path>
+        <path class="publication-animation__line--secondary publication-animation__threshold" d="M32 13V62"></path>
+        <path class="publication-animation__line publication-animation__flow" d="M56 39H66"></path>
+        <g class="publication-animation__masks">
+          <rect class="publication-animation__mask-on publication-animation__blink-1" x="70" y="14" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-off" x="85" y="14" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on publication-animation__blink-2" x="70" y="30" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on publication-animation__blink-3" x="85" y="30" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-off" x="70" y="46" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on publication-animation__blink-1" x="85" y="46" width="10" height="10" rx="2"></rect>
+        </g>
+
+      {% when 'ultramnist' %}
+        <rect class="publication-animation__canvas" x="10" y="8" width="79" height="62" rx="3"></rect>
+        <text class="publication-animation__digit publication-animation__digit--large" x="22" y="55">7</text>
+        <text class="publication-animation__digit publication-animation__digit--small" x="69" y="23">2</text>
+        <text class="publication-animation__digit publication-animation__digit--tiny" x="63" y="59">4</text>
+        <circle class="publication-animation__noise publication-animation__blink-1" cx="50" cy="24" r="2"></circle>
+        <path class="publication-animation__noise publication-animation__blink-2" d="M46 53L51 47L56 54Z"></path>
+        <g class="publication-animation__magnifier">
+          <circle cx="72" cy="17" r="10"></circle>
+          <path d="M79 24L87 32"></path>
+        </g>
+        <path class="publication-animation__line publication-animation__flow" d="M91 39H101"></path>
+        <text class="publication-animation__sum" x="97" y="34">Σ</text>
+
+      {% when 'repeatnet' %}
+        <g class="publication-animation__filter">
+          <rect x="9" y="27" width="22" height="22" rx="3"></rect>
+          <path d="M16 27V49 M24 27V49 M9 34H31 M9 42H31"></path>
+        </g>
+        <path class="publication-animation__line publication-animation__flow" d="M34 38H45 M49 35C55 25 61 20 68 18 M49 41C55 51 61 56 68 58 M49 38H78"></path>
+        <g class="publication-animation__filter publication-animation__duplicate-1">
+          <rect x="70" y="8" width="18" height="18" rx="3"></rect>
+          <path d="M76 8V26 M82 8V26 M70 14H88 M70 20H88"></path>
+        </g>
+        <g class="publication-animation__filter publication-animation__duplicate-2">
+          <rect x="70" y="52" width="18" height="18" rx="3"></rect>
+          <path d="M76 52V70 M82 52V70 M70 58H88 M70 64H88"></path>
+        </g>
+        <g class="publication-animation__filter publication-animation__duplicate-3">
+          <rect x="82" y="28" width="22" height="22" rx="3"></rect>
+          <path d="M89 28V50 M97 28V50 M82 35H104 M82 43H104"></path>
+        </g>
+
+      {% when 'metadock' %}
+        <g class="publication-animation__kernel-bank">
+          <rect x="22" y="8" width="10" height="10" rx="2"></rect>
+          <rect x="35" y="8" width="10" height="10" rx="2"></rect>
+          <rect x="48" y="8" width="10" height="10" rx="2"></rect>
+          <rect x="61" y="8" width="10" height="10" rx="2"></rect>
+          <rect x="74" y="8" width="10" height="10" rx="2"></rect>
+          <rect x="87" y="8" width="10" height="10" rx="2"></rect>
+        </g>
+        <circle class="publication-animation__shape" cx="11" cy="40" r="4"></circle>
+        <circle class="publication-animation__shape--secondary" cx="11" cy="62" r="4"></circle>
+        <path class="publication-animation__faint" d="M15 40H22 M15 62H22"></path>
+        <g class="publication-animation__task-mask publication-animation__task-mask--a">
+          <rect class="publication-animation__mask-on" x="24" y="34" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-off" x="38" y="34" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on" x="52" y="34" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on" x="66" y="34" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-off" x="80" y="34" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-off" x="94" y="34" width="10" height="10" rx="2"></rect>
+        </g>
+        <g class="publication-animation__task-mask publication-animation__task-mask--b">
+          <rect class="publication-animation__mask-off" x="24" y="56" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on" x="38" y="56" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-off" x="52" y="56" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on" x="66" y="56" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-on" x="80" y="56" width="10" height="10" rx="2"></rect>
+          <rect class="publication-animation__mask-off" x="94" y="56" width="10" height="10" rx="2"></rect>
+        </g>
+
+      {% else %}
+        <circle class="publication-animation__shape" cx="31" cy="39" r="12"></circle>
+        <circle class="publication-animation__shape--secondary publication-animation__pulse" cx="81" cy="39" r="12"></circle>
+        <path class="publication-animation__line publication-animation__flow" d="M43 39H69"></path>
+        <circle class="publication-animation__node publication-animation__blink-1" cx="56" cy="27" r="2.5"></circle>
+        <circle class="publication-animation__node--secondary publication-animation__blink-2" cx="56" cy="51" r="2.5"></circle>
+    {% endcase %}
+  </svg>
+</div>
