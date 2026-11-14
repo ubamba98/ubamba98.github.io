@@ -1,5 +1,7 @@
 {% assign publication_scene = 'generic' %}
 {% case entry.key %}
+  {% when 'chavan2026lafa' %}
+    {% assign publication_scene = 'lafa' %}
   {% when 'bamba2025xrpo' %}
     {% assign publication_scene = 'xrpo' %}
   {% when 'bamba2026dotmoe' %}
@@ -27,6 +29,9 @@
 {% endcase %}
 
 <div class="publication-art publication-art--{{ publication_scene }}" aria-hidden="true">
+  {% if publication_scene == 'lafa' %}
+    {% include publication_lafa.svg %}
+  {% else %}
   <svg class="publication-animation" viewBox="0 0 112 78" focusable="false">
     {% case publication_scene %}
       {% when 'xrpo' %}
@@ -220,4 +225,5 @@
         <circle class="publication-animation__node--secondary publication-animation__blink-2" cx="56" cy="51" r="2.5"></circle>
     {% endcase %}
   </svg>
+  {% endif %}
 </div>
